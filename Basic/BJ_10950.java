@@ -1,3 +1,6 @@
+// 첫 줄 test case 개수
+// 개수만큼 줄 단위로 더하기
+
 import java.util.Scanner;
 
 public class BJ_10950 {
