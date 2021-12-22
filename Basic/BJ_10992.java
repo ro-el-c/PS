@@ -1,4 +1,4 @@
-// 별 찍기 - 16
+// 별 찍기 - 17
 import java.util.Scanner;
 
 public class BJ_10992 {
