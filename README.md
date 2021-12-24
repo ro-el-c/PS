@@ -10,5 +10,5 @@ PS (probelm solving) _ Online Judge 문제 풀이 저장<br><br>
 * Java
 ***
 ## Online Judge
-* [Baekjoon](https://www.acmicpc.net/)
-* [Programmers](https://programmers.co.kr/)
+* [Baekjoon](https://www.acmicpc.net/)<br> - BJ_문제번호
+* [Programmers](https://programmers.co.kr/)<br> - P_문제이름
