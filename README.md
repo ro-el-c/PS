@@ -2,11 +2,12 @@
 ***
 ## Algorithm
 * Basic : 입출력 등 기초 문제
-* Math : 수학
 * Brute Force : 완전 탐색
-* String : 문자열
+* DynamicProgramming : 다이나믹 프로그래밍 (동적 계획)
 * Greedy : 그리디
-* DynamicProgramming : 다이나믹 프로그래밍 (동적 계획)<br><br>
+* Math : 수학
+* Stack : 스택
+* String : 문자열<br><br>
 ***
 ## Language
 * Java
