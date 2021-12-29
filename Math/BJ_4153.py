@@ -1,3 +1,6 @@
+""" 직각삼각형 """
+# 세 변의 길이 입력, 직각삼감형이면 right, 아니면 wrong 출력
+
 while(True):
     l = list(map(int, input().split()))
     max_num = max(l)
@@ -8,5 +11,3 @@ while(True):
         print("right")
     else:
         print("wrong")
-    
-    
