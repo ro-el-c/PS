@@ -30,9 +30,18 @@ public class BJ_1181 {
                 if(o1.length() == o2.length())
                     return o1.compareTo(o2); // 같은 길이라면, 사전 순으로 정렬
                 else
-                    return o1.length() - o2.length(); //// 오름차순. o1의 길이가 o2보다 크다면 자리 바꿈
+                    return o1.length() - o2.length(); //// 문자열 길이에 대하여 오름차순. o1의 길이가 o2보다 크다면 자리 바꿈
             }
         });
+        /*
+            int compare(T o1, T o2) 일 때, return 값의 의미
+            양수 : o1이 왼쪽이어야 함
+            0    : o1과 o2가 같다
+            음수 : o2가 왼쪽이어야 함
+
+            따라서, 위 return o1.length() - o2.length() 의 값이 양수, 즉, o1의 길이가 o2보다 클 때, 두 문자열의 자리가 바뀐다.
+
+        */
 
         /*
         사전 순으로 정렬 후, 문자열의 길이순으로 다시 정렬
