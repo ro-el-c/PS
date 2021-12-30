@@ -28,9 +28,10 @@ public class BJ_1929 {
         arr[1] = 1; // 1은 소수가 아님.
 
         for(int i=2; i<=n; i++){ // 숫자 i에 대하여 소수 여부 저장
-            for(int j=2; i*j<=n; j++){ // 범위 내에서, 소수가 아닌 수 1로 저장
-                arr[i*j] = 1;
-            }
+            if(arr[i] != 1)
+                for(int j=2; i*j<=n; j++){ // 범위 내에서, 소수가 아닌 수 1로 저장
+                    arr[i*j] = 1;
+                }
         }
 
         for(int j=m; j<=n; j++)
