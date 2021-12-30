@@ -15,7 +15,7 @@ public class BJ_1181 {
     public static void main(String[] args) throws IOException {
         BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer st = new StringTokenizer(bf.readLine());
-        String str, temp;
+        String str, temp="";
         String[] arr;
 
         int N = Integer.parseInt(st.nextToken());
@@ -24,30 +24,28 @@ public class BJ_1181 {
         for (int i = 0; i < N; i++)
             arr[i] = bf.readLine();
 
-        Arrays.sort(arr);
-        //System.out.println(Arrays.toString(arr));
 
         Arrays.sort(arr, new Comparator<String>() {
             @Override
             public int compare(String o1, String o2) {
-                if(o1.length() > o2.length())
-                    return 1;
-                else if(o1.length() == o2.length())
-                    return o1.compareTo(o2);
+                if(o1.length() == o2.length())
+                    return o1.compareTo(o2); // 같은 길이라면, 사전 순으로 정렬
                 else
-                    return -1;
+                    return o1.length() - o2.length(); //// 오름차순. o1의 길이가 o2보다 크다면 자리 바꿈
             }
         });
 
-        //System.out.println(Arrays.toString(arr));
+        /*
+        사전 순으로 정렬 후, 문자열의 길이순으로 다시 정렬
 
-        for(int i=0; i<N; i++){
-            if(i==0)
-                System.out.println(arr[i]);
-            else if(!arr[i].equals(arr[i-1]))
-                System.out.println(arr[i]);
-        }
+        Arrays.sort(arr);
+        Arrays.sort(arr, Comparator.comparing(String::length));
+        */
 
-        bf.close();
+        for(int i=0; i<N; i++)
+            if(!temp.equals(arr[i])){
+                System.out.println(arr[i]);
+                temp = arr[i];
+            }
     }
 }
