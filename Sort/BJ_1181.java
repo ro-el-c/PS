@@ -24,7 +24,6 @@ public class BJ_1181 {
         for (int i = 0; i < N; i++)
             arr[i] = bf.readLine();
 
-
         Arrays.sort(arr, new Comparator<String>() {
             @Override
             public int compare(String o1, String o2) {
