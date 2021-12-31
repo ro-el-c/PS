@@ -4,8 +4,10 @@
 * Basic : 입출력 등 기초 문제
 * Brute Force : 완전 탐색
 * DynamicProgramming : 다이나믹 프로그래밍 (동적 계획)
-* Greedy : 그리디
+* Greedy : 그리디 (탐욕)
 * Math : 수학
+* Queue : 큐
+* Sorting : 정렬
 * Stack : 스택
 * String : 문자열<br><br>
 ***
