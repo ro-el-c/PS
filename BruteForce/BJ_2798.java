@@ -29,15 +29,11 @@ public class BJ_2798 {
             arr[i] = Integer.parseInt(st.nextToken());
 
         for(int i=0; i<N; i++){
-            for(int j=0; j<N; j++){
-                if(j!=i){
-                    for(int l=0; l<N; l++){
-                        if(l!=j && l!=i){
-                            tmp = arr[i] + arr[j] + arr[l];
-                            if(tmp <= M && tmp > max)
-                                max = tmp;
-                        }
-                    }
+            for(int j=i+1; j<N; j++){
+                for(int l=j+1; l<N; l++){
+                    tmp = arr[i] + arr[j] + arr[l];
+                    if(tmp <= M && tmp > max)
+                        max = tmp;
                 }
             }
         }
