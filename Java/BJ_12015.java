@@ -30,18 +30,16 @@ public class BJ_12015 {
             else{ // list의 마지막 값이 현재 값보다 크거나 같으면, 오름차순이 아니므로
                   // 이분탐색을 통해 들어갈 자리를 구하고, 그 곳의 값을 현재 값으로 다시 세팅
                 int lo=0, hi=list.size()-1;
-                int left = 0;
-                int right = list.size() - 1;
 
-                while(left < right){
-                    int mid = (left + right) / 2;
+                while(lo < hi){
+                    int mid = (lo + hi) / 2;
                     if(list.get(mid) >= arr[i]){
-                        right = mid;
+                        hi = mid;
                     }else{
-                        left = mid + 1;
+                        lo = mid + 1;
                     }
                 }
-                list.set(right, arr[i]);
+                list.set(hi, arr[i]);
             }
         }
 
