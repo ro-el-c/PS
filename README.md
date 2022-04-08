@@ -4,7 +4,8 @@
 ## Language
 * Java
 * C++
-* Python<br><br>
+* Python
+* SQL<br><br>
 ***
 
 ## Online Judge
