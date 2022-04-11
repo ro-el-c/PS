@@ -5,7 +5,7 @@
 * Java
 * C++
 * Python
-* SQL<br><br>
+* SQL - MySQL<br><br>
 ***
 
 ## Online Judge
