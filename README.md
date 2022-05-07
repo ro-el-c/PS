@@ -16,4 +16,4 @@
 ***
 
 ## Folder
-* Algorithm<br> - 알고리즘 구현 소스 파일
+* Algorithm_Implementation<br> - 알고리즘 구현 소스 파일
