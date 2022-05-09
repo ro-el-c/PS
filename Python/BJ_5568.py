@@ -1,3 +1,5 @@
+# 카드 놓기
+
 import itertools
 
 numList = []
