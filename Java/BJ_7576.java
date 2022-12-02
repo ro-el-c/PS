@@ -22,13 +22,13 @@ public class BJ_7576 {
     static int[] yy = {0, 0, -1, 1};
 
     static int[][] box;
-    static Queue<tomato> que = new LinkedList<>();
+    static Queue<tomato2> que = new LinkedList<>();
 
     static int day_cnt=0, tomato_cnt=0;
 
     public static int bfs() {
         while(!que.isEmpty()){
-            tomato temp = que.poll();
+            tomato2 temp = que.poll();
 
             for(int i=0; i<4; i++){
                 int nx = temp.row + xx[i];
@@ -40,7 +40,7 @@ public class BJ_7576 {
                 if(box[nx][ny] > 0 || box[nx][ny] == -1)
                     continue;
 
-                que.offer(new tomato(nx, ny));
+                que.offer(new tomato2(nx, ny));
                 box[nx][ny] = box[temp.row][temp.col] + 1;
             }
         }
@@ -71,7 +71,7 @@ public class BJ_7576 {
             for(int j=0; j<M; j++) {
                 box[i][j] = Integer.parseInt(st.nextToken());
                 if(box[i][j] == 1)
-                    que.offer(new tomato(i, j));
+                    que.offer(new tomato2(i, j));
             }
         }
 
@@ -79,10 +79,10 @@ public class BJ_7576 {
     }
 }
 
-class tomato {
+class tomato2 {
     int row, col;
 
-    tomato(int x, int y){
+    tomato2(int x, int y){
         row = x;
         col = y;
     }

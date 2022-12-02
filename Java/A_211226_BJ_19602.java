@@ -2,7 +2,7 @@
 
 import java.util.Scanner;
 
-public class A_BJ_19602 {
+public class A_211226_BJ_19602 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int S, M, L;
