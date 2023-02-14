@@ -1,4 +1,9 @@
-백준커리큘럼.xlsx
-/Test
+/Java_run
 
 .DS_Store
+.txt
+
+/Java/out
+/Java/.idea
+
+/Python/.vscode
