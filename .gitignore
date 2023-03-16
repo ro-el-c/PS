@@ -1,3 +1,10 @@
+# Ignore all
+*
+# Unignore all with extensions
+!*.*
+# Unignore all dirs
+!*/
+
 /Java_run
 
 .DS_Store
@@ -8,3 +15,5 @@
 
 /Python/.vscode
 /Python/test.py
+
+/C++/틀.cpp
