@@ -1,5 +1,5 @@
 // 괄호
-// VPA(Valid Parenthesis String) 괄호의 모양이 바르게 구성된 문자열
+// VPS(Valid Parenthesis String) 괄호의 모양이 바르게 구성된 문자열
 // ( 나오면 count +1, ) 나오면 -1.
 // 단, count 값이 0보다 작아지면 열린 괄호보다 닫힌 괄호가 많다는 뜻이므로 바로 return false
 
