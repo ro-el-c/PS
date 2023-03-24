@@ -13,7 +13,7 @@ int main() {
     cin >> n;
     ans = sqrt(n);
 
-    while (pow(ans, 2) < n)
+    if (pow(ans, 2) < n)
         ans++;
 
     cout << ans;
