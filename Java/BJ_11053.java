@@ -1,5 +1,5 @@
 // 가장 긴 증가하는 부분 수열 (LIS : Longest Increasing Subsequence)
-// 1. 완전 탐섹 (2^N)
+// 1. 완전 탐색 (2^N)
 // 2. DP (N^2)
 // 3. 이분 탐색 (NlogN)
 
