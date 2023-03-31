@@ -2,7 +2,7 @@
 #include <iostream>
 #include <vector>
 #include <algorithm>
-#define MAX 100001
+#define MAX 1001
 using namespace std;
 
 int main(){
