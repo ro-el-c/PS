@@ -17,5 +17,8 @@
 /Python/test.py
 
 /C++/틀.cpp
+/C++/CMakeLists.txt
+/C++/.idea/
+/C++/cmake-build-debug/
 
 PS.code-workspace
