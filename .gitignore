@@ -5,20 +5,21 @@
 # Unignore all dirs
 !*/
 
-/Java_run
-
+# MacOS
 .DS_Store
-.txt
 
-/Java/out
-/Java/.idea
+# JetBrains
+.idea/
+out/
+cmake-build-debug/
+# CMakeLists.txt
 
-/Python/.vscode
-/Python/test.py
-
-/C++/틀.cpp
-/C++/CMakeLists.txt
-/C++/.idea/
-/C++/cmake-build-debug/
-
+# visual studio code
+.vscode/
 PS.code-workspace
+
+# Else
+*.txt
+/Java_run
+/C++/틀.cpp
+/Python/test.py
