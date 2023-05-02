@@ -17,6 +17,7 @@ cmake-build-debug/
 # visual studio code
 .vscode/
 PS.code-workspace
+tempCodeRunnerFile.cpp
 
 # Else
 *.txt
