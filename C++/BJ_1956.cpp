@@ -29,7 +29,7 @@ int main() {
     int min_cycle=INF;
     for(int i=1; i<=v; i++)
         for(int j=1; j<=v; j++) {
-            if(i!=j && d[i][j]<INF && d[i][j]<INF)
+            if(i!=j && d[i][j]<INF && d[j][i]<INF)
                 min_cycle = min(min_cycle, d[i][j]+d[j][i]);
         }
     
