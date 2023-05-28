@@ -60,7 +60,7 @@ int main() {
      * 리프 노드를 제외한 모드 노드에는 자신이 담당하는 구간의 합이 저장되어 있다.
      */
 
-    int now, max_rank;
+    int now;
     for(int i=1; i<=n; i++) {
         now = arr[i].first;
         cout << query(now)+1 << endl;
