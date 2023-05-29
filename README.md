@@ -2,8 +2,8 @@
 ***
 
 ## Language
-* Java
 * C++
+* Java
 * Python
 * SQL - MySQL<br><br>
 ***
