@@ -10,7 +10,7 @@
 
 ## Online Judge
 * [Baekjoon](https://www.acmicpc.net/)<br> - BJ_문제번호
-* [Programmers](https://programmers.co.kr/)<br> - PGM_문제이름
+* [Programmers](https://programmers.co.kr/)<br> - PGM_문제이름 / P_level_문제이름
 <br>
 
 [![Solved.ac 프로필](http://mazassumnida.wtf/api/v2/generate_badge?boj=chung3286)](https://solved.ac/chung3286)
